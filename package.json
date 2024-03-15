@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flat-cache": "^4.0.1",
+    "jsdom": "^24.0.0",
+    "node-cache": "^5.1.2",
     "stremio-addon-sdk": "1.0.x"
   }
 }
