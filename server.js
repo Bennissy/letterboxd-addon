@@ -1,5 +1,4 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-
 const main = require("./addon");
 
 const manifest = {
@@ -32,4 +31,4 @@ builder.defineCatalogHandler(async (args) => {
   return Promise.resolve({ metas });
 });
 
-serveHTTP(builder.getInterface(), { port: 7000 });
+serveHTTP(builder.getInterface(), { port: 3000 });
