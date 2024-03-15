@@ -1,4 +1,7 @@
 {
     "projectName": "letterboxd-addon",
-    "lastCommit": "4e8969e"
+    "lastCommit": "4e8969e",
+    "scripts": {
+        "start": "node server.js"
+      }
 }
